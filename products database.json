@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "654e3cc68dd9d93d52934371"
+  },
+  "name": "Tom Gates : The Brilliant World of Tom Gates",
+  "quantity": 10,
+  "price": 239,
+  "category": "Fiction",
+  "image": "static/images/91sbZV89isL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e3e598dd9d93d52934372"
+  },
+  "name": "THE ADVENTURES OF CAPTAIN UNDERPANTS",
+  "quantity": 11,
+  "price": 299,
+  "category": "Fiction",
+  "image": "static/images/81xexVCChJL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e3e8c8dd9d93d52934373"
+  },
+  "name": "DIARY OF A WIMPY KID",
+  "quantity": 12,
+  "price": 305,
+  "category": "Fiction",
+  "image": "static/images/81R2N4PRuUL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e3ebe8dd9d93d52934374"
+  },
+  "name": "It Ends With Us: A Novel: Volume 1",
+  "quantity": 13,
+  "price": 269,
+  "category": "Romance",
+  "image": "static/images/81s0B6NYXML.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e3fa08dd9d93d52934375"
+  },
+  "name": "Lessons in Chemistry",
+  "quantity": 9,
+  "price": 239,
+  "category": "Historical fiction",
+  "image": "static/images/81k9w0hE9L.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e3fd58dd9d93d52934376"
+  },
+  "name": "The Boy, The Mole, The Fox and The Horse",
+  "quantity": 8,
+  "price": 611,
+  "category": "Children's literature",
+  "image": "static/images/81PdkxXJObL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e40e48dd9d93d52934377"
+  },
+  "name": "VAHANA:VEHICLES OF GODS",
+  "quantity": 15,
+  "price": 193,
+  "category": "Hindu mythology",
+  "image": "static/images/71lU6us55L.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e415726ae70f560e0146c"
+  },
+  "name": "BIG NATE GOES BANANAS!",
+  "quantity": 4,
+  "price": 310.77,
+  "category": "Comics",
+  "image": "static/images/71ijAZgCJnS.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e419a26ae70f560e0146d"
+  },
+  "name": "HARRY POTTER AND THE CHAMBER OF SECRETS",
+  "quantity": 5,
+  "price": 292,
+  "category": "Fiction",
+  "image": "static/images/Screenshot_2023-01-06_230236.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e41c226ae70f560e0146e"
+  },
+  "name": "REMINDERS OF HIM",
+  "quantity": 7,
+  "price": 249,
+  "category": "Romance",
+  "image": "static/images/617uZq23IPL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e41fe26ae70f560e0146f"
+  },
+  "name": "THE PANTHER'S GHOSTS",
+  "quantity": 15,
+  "price": 324,
+  "category": "Thriller",
+  "image": "static/images/81aVedEtpL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e426a26ae70f560e01470"
+  },
+  "name": "FRIENDS,LOVERS,AND THE BIG TERRIBLE THING",
+  "quantity": 11,
+  "price": 399,
+  "category": "Biography",
+  "image": "static/images/81gEt9K34EL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e42aa26ae70f560e01471"
+  },
+  "name": "Dr Cuterus: Everything Nobody Tells You About Your Body",
+  "quantity": 20,
+  "price": 244,
+  "category": "Non-Fiction",
+  "image": "static/images/81RMLBEsHL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e433c26ae70f560e01472"
+  },
+  "name": "Spare - Prince Harry",
+  "quantity": 15,
+  "price": 1227,
+  "category": "Autobiography",
+  "image": "static/images/81pHW0GJIlL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e436526ae70f560e01473"
+  },
+  "name": "Big Nate: The Gerbil Ate My Homework (Volume 23)",
+  "quantity": 17,
+  "price": 550,
+  "category": "Comedy",
+  "image": "static/images/81-wGiTD-8L.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e439826ae70f560e01474"
+  },
+  "name": "DOGMAN",
+  "quantity": 17,
+  "price": 450,
+  "category": "Comic",
+  "image": "static/images/download.jpeg"
+},
+{
+  "_id": {
+    "$oid": "654e43b126ae70f560e01475"
+  },
+  "name": "Big Nate: What's a Little Noogie Between Friends? (Volume 16)",
+  "quantity": 14,
+  "price": 324,
+  "category": "Comedy",
+  "image": "static/images/71SKLecbZWS.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e43db26ae70f560e01476"
+  },
+  "name": "ATOMIC HABITS",
+  "quantity": 20,
+  "price": 429,
+  "category": "Self-help",
+  "image": "static/images/91bYsX41DVL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e440126ae70f560e01477"
+  },
+  "name": "Verity 1",
+  "quantity": 18,
+  "price": 233,
+  "category": "Fiction",
+  "image": "static/images/71jte84ADvL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e442226ae70f560e01478"
+  },
+  "name": "Ikigai: The Japanese secret to a long and happy life",
+  "quantity": 21,
+  "price": 368,
+  "category": "Self-help",
+  "image": "static/images/814Lvq01mL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e444c26ae70f560e01479"
+  },
+  "name": "The Da Vinci Code",
+  "quantity": 17,
+  "price": 364,
+  "category": "Thriller",
+  "image": "static/images/71DAQuN7jhL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e448026ae70f560e0147a"
+  },
+  "name": "The Alchemist",
+  "quantity": 21,
+  "price": 216,
+  "category": "Adventure",
+  "image": "static/images/71aFt4OTOL.jpg"
+},
+{
+  "_id": {
+    "$oid": "654e44c626ae70f560e0147b"
+  },
+  "name": "Fairy Tale",
+  "quantity": 8,
+  "price": 718,
+  "category": "Dark Fantasy",
+  "image": "static/images/51dBjeZ19iL._SX323_BO1204203200_.jpg"
+}]

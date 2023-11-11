@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manage Products</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" />
+      <h1>Website Name</h1>
+      <form>
+        <input type="text" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+
+    <h2>Manage Products</h2>
+    <table>
+      <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Image</th>
+        <th>Actions</th>
+      </tr>
+      {% for product in products %}
+      <tr>
+        <form method="POST">
+          <input type="hidden" name="product_id" value="{{ product._id }}" />
+
+          <td>
+            <input
+              type="text"
+              name="updated_product_name"
+              value="{{ product.name }}"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              name="updated_quantity"
+              value="{{ product.quantity }}"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              name="updated_price"
+              value="{{ product.price }}"
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              name="updated_category"
+              value="{{ product.category }}"
+            />
+          </td>
+          <td>
+            <img
+              src="{{ product.image }}"
+              alt="{{ product.name }}"
+              width="100"
+            />
+          </td>
+          <td>
+            <button type="submit" name="action" value="update">Update</button>
+            <button type="submit" name="action" value="delete">Delete</button>
+          </td>
+        </form>
+      </tr>
+      {% endfor %}
+    </table>
+    <a href="/admin_home">Back to Admin Home</a>
+    <form action="/logout" method="POST">
+      <input type="submit" value="Logout" />
+    </form>
+  </body>
+</html>

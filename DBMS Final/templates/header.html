@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logo</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="/static/logo.png" alt="My Website Logo" />
+      <!-- Your website name -->
+      <h1 id="website-name">BookShelf</h1>
+
+      <!-- Search bar (you can customize this as needed) -->
+      <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+  </body>
+</html>
