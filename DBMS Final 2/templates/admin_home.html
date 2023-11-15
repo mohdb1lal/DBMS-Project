@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      p {
+        font-weight: bold;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin: 5px 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+      }
+
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .manage_product {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        float: left;
+        width: 200px;
+        height: 330px;
+      }
+
+      .manage_product h3 {
+        color: #333;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .manage_product p {
+        color: #777;
+        margin: 5px 0;
+      }
+
+      .manage_product img {
+        max-width: 100%;
+        max-height: 150px;
+      }
+
+      .header {
+        align-items: baseline;
+      }
+
+      .header img {
+        width: 10px; /* Limit the logo width to 50px (adjust as needed) */
+        height: 10px; /* Maintain aspect ratio */
+      }
+
+      .header h1 {
+        font-size: 4px; /* Adjust the font size as needed */
+        margin-top: 10px;
+      }
+
+      .header form {
+        margin-top: 10px;
+      }
+
+      .header input[type="text"] {
+        padding: 5px;
+      }
+
+      .header button[type="submit"] {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Welcome, Admin!</h2>
+    <!-- Admin-specific content -->
+    <p>Admin Dashboard</p>
+
+    <!-- Link to manage products -->
+    <a href="{{ url_for('manage_product') }}">Manage Products</a>
+
+    <!-- Form to add a new product with image upload -->
+    <form action="/add_product" method="POST" enctype="multipart/form-data">
+      <label for="product_name">Product Name:</label>
+      <input
+        type="text"
+        id="product_name"
+        name="product_name"
+        required
+      /><br /><br />
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required /><br /><br />
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" required /><br /><br />
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" required /><br /><br />
+
+      <!-- Add file input for image upload -->
+      <label for="image">Product Image:</label>
+      <input type="file" id="image" name="image" required /><br /><br />
+
+      <input type="submit" value="Add Product" />
+    </form>
+
+    <h3>Customer Details</h3>
+    <ul>
+      {% for user in users %}
+      <li>{{ user.username }}</li>
+      {% endfor %}
+    </ul>
+
+    <form action="/logout" method="POST">
+      <input type="submit" value="Logout" />
+    </form>
+  </body>
+</html>
